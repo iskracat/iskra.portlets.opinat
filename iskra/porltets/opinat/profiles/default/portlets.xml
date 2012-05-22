@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<portlets>
+
+ <!-- Portlet type registrations -->
+
+ <portlet
+   addview="iskra.porltets.opinat.LogosOpinat"
+   title="Logos Opinat"
+   description=""
+   />
+
+ <portlet
+   addview="iskra.porltets.opinat.NPSOpinat"
+   title="NPS Opinat"
+   description=""
+   />
+
+</portlets>

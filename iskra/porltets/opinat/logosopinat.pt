@@ -1,0 +1,24 @@
+<dl class="portlet portletLogosOpinat" id="clientes"
+    tal:define="logos view/buscarClients"
+    i18n:domain="iskra.opinat.logos">
+
+    <dt class="portletHeader">
+        <span class="portletTopLeft"></span>
+        <span i18n:translate="ALGUNOS CLIENTES">ALGUNOS CLIENTES</span>
+        <span class="portletTopRight"></span>
+    </dt>
+    <div class="titol_portlet_logos text" i18n:translate="ALGUNOS CLIENTES">ALGUNOS <strong>CLIENTES</strong></div>
+    <div class="logo_portlet" tal:repeat="logo logos">
+        <tal:block define="objecte logo/getObject">
+            <a href="" tal:attributes="href objecte/enlla">
+            <img class="image-inline" tal:define="scales objecte/@@images;
+                             thumbnail python: scales.scale('imatge', width=90, height=70);"
+                 tal:condition="thumbnail"
+                 tal:attributes="src thumbnail/url;
+                                 width thumbnail/width;
+                                 height thumbnail/height;" />
+            </a>
+        </tal:block>
+    </div>
+
+</dl>

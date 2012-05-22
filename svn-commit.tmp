@@ -1,0 +1,16 @@
+ii
+--Esta línea y las que están debajo serán ignoradas--
+
+A    iskra/__init__.py
+A    iskra/porltets/__init__.py
+A    iskra/porltets/opinat/logosopinat.pt
+M    iskra/porltets/opinat/profiles/default/types/client.xml
+M    iskra/porltets/opinat/profiles/default/portlets.xml
+M    iskra/porltets/opinat/configure.zcml
+A    iskra/porltets/opinat/client.py
+A    iskra/porltets/opinat/logosopinat.py
+M    iskra/porltets/opinat/__init__.py
+AM   iskra/porltets/opinat/client.pyc
+AM   iskra/porltets/opinat/logosopinat.pyc
+AM   iskra/porltets/opinat/__init__.pyc
+A    iskra/porltets/opinat/client.xml

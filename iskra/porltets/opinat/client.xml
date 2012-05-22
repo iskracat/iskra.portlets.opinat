@@ -1,0 +1,12 @@
+<model xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="imatge" type="plone.namedfile.field.NamedImage">
+      <description />
+      <title>Imatge</title>
+    </field>
+    <field name="enlla" type="zope.schema.TextLine">
+      <description />
+      <title>Enlla&#231;</title>
+    </field>
+  </schema>
+</model>

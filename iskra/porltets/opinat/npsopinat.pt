@@ -1,0 +1,21 @@
+<dl class="portlet portletLogosOpinat" id="clientes"
+    tal:define="dades view/demanarNumeros"
+    i18n:domain="iskra.opinat.logos">
+    <dd class="portletItem odd" >
+    <div id="real">
+        <div id="text">
+            OPINAT EN <strong>TIEMPO REAL</strong>
+        </div>
+        <div id="realcaixaser" tal:content="dades/enviades">101.234</div>
+        <div id="textser">
+            <p>Enquestas</p>
+            <p>servidas</p>
+        </div>
+        <img src="++theme++iskratheme.opinat/imatges/lins.png"><div id="realcaixareb" tal:content="dades/respostes">79.876</div>
+        <div id="textrec">
+            <p>Respuestas</p>
+            <p>recibidas</p>
+        </div>
+    </div>
+</dd>
+</dl>
