@@ -1,0 +1,2 @@
+iskra.portlets.opinat
+=====================
